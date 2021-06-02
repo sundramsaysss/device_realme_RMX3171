@@ -1,4 +1,4 @@
-Realme 7I(EU)/Realme Narzo 20 Device Tree - RMX2193/RMX2191
+Realme 7I(EU)/Realme Narzo 20 Device Tree - RMX3171/RMX2191
 ================================================================
 
 
