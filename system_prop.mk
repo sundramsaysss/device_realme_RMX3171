@@ -111,3 +111,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.mediatek.wlan.wsc=1 \
     ro.mediatek.wlan.p2p=1 \
     mediatek.wlan.ctia=0
+    
+# Maintainer
+ro.cipher.maintainer=Sundram™   
+    
