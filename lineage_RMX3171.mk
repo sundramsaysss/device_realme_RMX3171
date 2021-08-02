@@ -44,3 +44,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+# FaceLock
+TARGET_SUPPORTS_FACE_LOCK := true
