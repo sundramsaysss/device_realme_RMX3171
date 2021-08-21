@@ -1,2 +1,5 @@
 # Allow system_server for usb and smart charging nodes
 allow system_server sysfs_battery_supply:file { getattr open read write };
+
+# App Lock
+add_service(system_server, applock_service)
