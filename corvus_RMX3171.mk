@@ -21,20 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX3171/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common CorvusOS stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RMX3171
+PRODUCT_NAME := corvus_RMX3171
 PRODUCT_DEVICE := RMX3171
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme Narzo 30A
 PRODUCT_MANUFACTURER := realme
 
 TARGET_BOOT_ANIMATION_RES := 720
+scr_resolution := 720
 
 # Build info
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX3171 \
     PRODUCT_NAME=RMX3171 \

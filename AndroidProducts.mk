@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX3171.mk
+    $(LOCAL_DIR)/corvus_RMX3171.mk
+	
+COMMON_LUNCH_CHOICES := \
+        corvus_RMX3171-eng \
+        corvus_RMX3171-user \
+        corvus_RMX3171-userdebug
